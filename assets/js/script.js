@@ -77,15 +77,15 @@ function initAnimations() {
 	});
 }
 
-function initTwitterFeed() {
+//function initTwitterFeed() {
     /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi */
-    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
-}
+//    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
+//}
 $(document).ready(function () {
     initNavbar();
     initPortfolio();
     initAnimations();
-    initTwitterFeed();
+//    initTwitterFeed();
 });
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
